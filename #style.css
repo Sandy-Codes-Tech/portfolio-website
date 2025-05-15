@@ -1,0 +1,68 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:#f9f9f9;
+    color:#333;
+    margin:0;
+    padding:0;
+
+}
+header{
+    background:lightblue;
+    color:#fff;
+    padding:20px;
+    text-align:center;
+}
+
+.about{
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 600px;
+    background: #f9f9f9;
+    border-radius: 15px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.113);
+
+}
+h2{
+    color:lightblue;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background: #333;
+
+}
+/*Project list*/
+.project-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-cards{
+    background: #fff;
+    border-left: 4px solid lightgreen;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.113);
+    transition: 0.3s ease;
+}
+
+.project-cards:hover{
+    transform: translateY(-5px);
+    margin-top: 0px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    color: #444;
+}
+
+.project-cards >a{
+    color: lightblue;
+    display: inline-block;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+    font-weight: 600;
+}
